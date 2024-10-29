@@ -17,4 +17,11 @@ public interface UserRepository extends JpaRepository<User, Integer> {
     Optional<User> findByActivationCode(Integer activationCode);
 
     List<User> findAllByEnabledFalseAndActivationCodeIsNotNull();
+    //
+    //
+
+    //
+    //
+    //
+
 }
